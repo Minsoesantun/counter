@@ -1,1 +1,31 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3vw;
+    font-size: 5rem;
+    flex: 1;
+}
+.counter > h1 {
+    text-align: center;
+    width: 25vw;
+    max-width: 25vw;
+}
+.counter > button {
+    font-size: 6rem;
+    width: 10vw;
+    max-width: 100px;
+    min-width: 60px;
+}
+.counter-container > button {
+    width: 45vw;
+    font-size: 5rem;
+}
+
 
